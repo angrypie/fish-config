@@ -15,3 +15,4 @@ set -gx EDITOR nvim
 abbr --add --global g git && abbr -e g
 
 set -gx GOPATH $HOME/go; set -gx GOROOT $HOME/.go; set -gx PATH $GOPATH/bin $PATH; # g-install: do NOT edit, see https://github.com/stefanmaric/g
+source $HOME/.cargo/env
