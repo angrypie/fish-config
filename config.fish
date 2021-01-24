@@ -11,6 +11,7 @@ alias n=nvim
 # Env
 set -gx EDITOR nvim
 set -U FZF_DEFAULT_COMMAND "rg --files \$dir"
+set -U FZF_LEGACY_KEYBINDINGS 0
 
 # Remove g abbreviation for git. Add abbreviation first to avoid erros if not exist.
 abbr --add --global g git && abbr -e g
